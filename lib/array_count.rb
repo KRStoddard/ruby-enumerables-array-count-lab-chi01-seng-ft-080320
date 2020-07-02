@@ -1,6 +1,6 @@
 def count_strings(array)
   array.count do |element|
-    element.is_a String?
+    element.length > 0 
   end
 end
 
